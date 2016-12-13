@@ -1,7 +1,11 @@
+body {
+  background-color: silver;
+}
+
 .nav {
   background-color: #666;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   align-items: center;
 }
@@ -21,18 +25,14 @@ ul {
   flex-wrap: wrap;
   width: 75vw;
   justify-content: space-between;
+  margin: 0 auto;
 
 }
 .card {
   width: 280px;
   height: 200px;
-  background-color: teal;
+  background-color: white;
   margin: 10px;
-  /*display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;*/
-
 }
 
 .image  {
